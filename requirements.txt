@@ -1,0 +1,25 @@
+# Core data processing and analysis
+pandas
+numpy
+
+# API clients for LLMs
+openai
+anthropic
+google-generativeai
+
+# Image processing
+Pillow
+
+# HTTP requests
+requests
+
+# Type hints
+typing-extensions
+
+# Environment variables
+python-dotenv
+
+# Jupyter environment
+jupyter
+notebook
+ipython
