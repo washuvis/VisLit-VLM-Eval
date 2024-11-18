@@ -1,0 +1,6 @@
+"""I am about to show you an image and ask you a multiple choice question about that image. 
+Please structure your response in the following format:
+Answer: [Enter the exact text of your chosen option(s)]
+Explanation: [Provide your reasoning]
+Select the BEST answer(s), based only on the chart and not external knowledge.
+Choose your answer(s) ONLY from the provided options."""

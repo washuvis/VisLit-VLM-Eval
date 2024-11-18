@@ -34,7 +34,6 @@ All models are configured with:
 │   ├── claude_evaluation.ipynb      # Claude evaluation notebook
 │   ├── gemini_evaluation.ipynb      # Gemini evaluation notebook
 │   ├── llama_evaluation.ipynb       # Llama evaluation notebook
-│   └── analysis/                    # Analysis and visualization scripts
 ├── prompts/
 │   ├── VLAT_prompt.txt      # Standardized VLAT assessment prompt
 │   └── CALVI_prompt.txt     # Standardized CALVI assessment prompt

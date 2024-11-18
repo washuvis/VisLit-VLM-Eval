@@ -1,0 +1,764 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What was the price of a barrel of oil in February 2015?",
+        "options": [
+          "$57.36",
+          "$47.82",
+          "$50.24",
+          "$39.72",
+          "Omit"
+        ],
+        "correct_answer": "$50.24",
+        "Task": "Retrieve Value",
+        "Chart_type": "Line chart",
+        "image_path": "vlat/LineChart.png"
+      },
+      {
+        "id": 2,
+        "question": "In which month was the price of a barrel of oil the lowest in 2015?",
+        "options": [
+          "March",
+          "May",
+          "July",
+          "December",
+          "Omit"
+        ],
+        "correct_answer": "December",
+        "Task": "Find Extremum",
+        "Chart_type": "Line chart",
+        "image_path": "vlat/LineChart.png"
+      },
+      {
+        "id": 3,
+        "question": "What was the price range of a barrel oil in 2015?",
+        "options": [
+          "$35 - $65",
+          "$48.36 - $60.95",
+          "$37.04 - $48.36",
+          "$37.04 - $60.95",
+          "Omit"
+        ],
+        "correct_answer": "$37.04 - $60.95",
+        "Task": "Determine Range",
+        "Chart_type": "Line chart",
+        "image_path": "vlat/LineChart.png"
+      },
+      {
+        "id": 4,
+        "question": "Over the course of the second half of 2015, the price of a barrel of oil was ____________.",
+        "options": [
+          "rising",
+          "falling",
+          "staying",
+          "Omit"
+        ],
+        "correct_answer": "falling",
+        "Task": "Find Correlations/Trends",
+        "Chart_type": "Line chart",
+        "image_path": "vlat/LineChart.png"
+      },
+      {
+        "id": 5,
+        "question": "About how much did the price of a barrel of oil fall from April to September in 2015?",
+        "options": [
+          "$4",
+          "$15",
+          "$17",
+          "$45",
+          "Omit"
+        ],
+        "correct_answer": "$15",
+        "Task": "Make Comparisons",
+        "Chart_type": "Line chart",
+        "image_path": "vlat/LineChart.png"
+      },
+      {
+        "id": 6,
+        "question": "What is the average internet speed in Japan?",
+        "options": [
+          "10 Mbps",
+          "14 Mbps",
+          "15 Mbps",
+          "16 Mbps",
+          "Omit"
+        ],
+        "correct_answer": "15 Mbps",
+        "Task": "Retrieve Value",
+        "Chart_type": "Bar chart",
+        "image_path": "vlat/BarChart.png"
+      },
+      {
+        "id": 7,
+        "question": "In which country is the average internet speed the fastest in Asia?",
+        "options": [
+          "China",
+          "Hong Kong",
+          "South Korea",
+          "Vietnam",
+          "Omit"
+        ],
+        "correct_answer": "South Korea",
+        "Task": "Find Extremum",
+        "Chart_type": "Bar chart",
+        "image_path": "vlat/BarChart.png"
+      },
+      {
+        "id": 8,
+        "question": "What is the range of the average internet speed in Asia?",
+        "options": [
+          "0 - 22 Mbps",
+          "2 - 20.5 Mbps",
+          "3 - 20 Mbps",
+          "3.4 - 7.8 Mbps",
+          "Omit"
+        ],
+        "correct_answer": "2 - 20.5 Mbps",
+        "Task": "Determine Range",
+        "Chart_type": "Bar chart",
+        "image_path": "vlat/BarChart.png"
+      },
+      {
+        "id": 9,
+        "question": "How many countries in Asia is the average internet speed slower than Thailand?",
+        "options": [
+          "5 countries",
+          "6 countries",
+          "7 countries",
+          "8 countries",
+          "Omit"
+        ],
+        "correct_answer": "7 countries",
+        "Task": "Make Comparisons",
+        "Chart_type": "Bar chart",
+        "image_path": "vlat/BarChart.png"
+      },
+      {
+        "id": 10,
+        "question": "What is the cost of peanuts in Las Vegas?",
+        "options": [
+          "$12",
+          "$16.7",
+          "$23.4",
+          "$35.4",
+          "Omit"
+        ],
+        "correct_answer": "$12",
+        "Task": "Retrieve Value (absolute value)",
+        "Chart_type": "Stacked Bar chart",
+        "image_path": "vlat/StackedBarChart.png"
+      },
+      {
+        "id": 11,
+        "question": "About what is the ratio of the cost of a sandwich to the total cost of room service in Seattle?",
+        "options": [
+          "1 to 10",
+          "2 to 10",
+          "4 to 10",
+          "6 to 10",
+          "Omit"
+        ],
+        "correct_answer": "4 to 10",
+        "Task": "Retrieve Value (relative value)",
+        "Chart_type": "Stacked Bar chart",
+        "image_path": "vlat/StackedBarChart.png"
+      },
+      {
+        "id": 12,
+        "question": "In which city is the cost of soda the highest?",
+        "options": [
+          "New York City",
+          "Las Vegas",
+          "Atlanta",
+          "Washington D.C.",
+          "Omit"
+        ],
+        "correct_answer": "Washington D.C.",
+        "Task": "Find Extremum",
+        "Chart_type": "Stacked Bar chart",
+        "image_path": "vlat/StackedBarChart.png"
+      },
+      {
+        "id": 13,
+        "question": "The cost of vodka in Atlanta is higher than that of Honolulu.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "True",
+        "Task": "Make Comparisons (absolute value)",
+        "Chart_type": "Stacked Bar chart",
+        "image_path": "vlat/StackedBarChart.png"
+      },
+      {
+        "id": 14,
+        "question": "The ratio of the cost of Soda to the cost of Water in Orlando is higher than that of Washington D.C.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (relative value)",
+        "Chart_type": "Stacked Bar chart",
+        "image_path": "vlat/StackedBarChart.png"
+      },
+      {
+        "id": 15,
+        "question": "What is the approval rating of Republicans among the people who have the education level of Postgraduate Study?",
+        "options": [
+          "38%",
+          "47%",
+          "53%",
+          "62%",
+          "Omit"
+        ],
+        "correct_answer": "38%",
+        "Task": "Retrieve Value (relative value)",
+        "Chart_type": "100% Stacked Bar chart",
+        "image_path": "vlat/100StackedBarChart.png"
+      },
+      {
+        "id": 16,
+        "question": "What is the education level of people in which the Democrats have the lowest approval rating?",
+        "options": [
+          "High School Graduate or Less",
+          "Some College Degree",
+          "College Graduate",
+          "Postgraduate Study",
+          "Omit"
+        ],
+        "correct_answer": "College Graduate",
+        "Task": "Find Extremum (relative value)",
+        "Chart_type": "100% Stacked Bar chart",
+        "image_path": "vlat/100StackedBarChart.png"
+      },
+      {
+        "id": 17,
+        "question": "The approval rating of Republicans for the people who have the education level of Some College Degree is lower than that for the people who have the education level of Postgraduate Study.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (relative value)",
+        "Chart_type": "100% Stacked Bar chart",
+        "image_path": "vlat/100StackedBarChart.png"
+      },
+      {
+        "id": 18,
+        "question": "About what is the global smartphone market share of Samsung?",
+        "options": [
+          "15%",
+          "25%",
+          "33%",
+          "50%",
+          "Omit"
+        ],
+        "correct_answer": "25%",
+        "Task": "Retrieve Value (relative value)",
+        "Chart_type": "Pie chart",
+        "image_path": "vlat/PieChart.png"
+      },
+      {
+        "id": 19,
+        "question": "In which company is the global smartphone market share the smallest?",
+        "options": [
+          "Apple",
+          "Xiaomi",
+          "Lenovo",
+          "Others",
+          "Omit"
+        ],
+        "correct_answer": "Lenovo",
+        "Task": "Find Extremum (relative value)",
+        "Chart_type": "Pie chart",
+        "image_path": "vlat/PieChart.png"
+      },
+      {
+        "id": 20,
+        "question": "The global smartphone market share of Apple is larger than that of Huawei.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "True",
+        "Task": "Make Comparisons (relative value)",
+        "Chart_type": "Pie chart",
+        "image_path": "vlat/PieChart.png"
+      },
+      {
+        "id": 21,
+        "question": "How many people have rated the taxi between 4.0 and 4.2?",
+        "options": [
+          "145",
+          "153",
+          "200",
+          "240",
+          "Omit"
+        ],
+        "correct_answer": "153",
+        "Task": "Retrieve Value (derived value)",
+        "Chart_type": "Histogram",
+        "image_path": "vlat/Histogram.png"
+      },
+      {
+        "id": 22,
+        "question": "What is the rating that the people have rated the taxi the most?",
+        "options": [
+          "4.2 - 4.4",
+          "4.4 - 4.6",
+          "4.6 - 4.8",
+          "4.8 - 5.0",
+          "Omit"
+        ],
+        "correct_answer": "4.4 - 4.6",
+        "Task": "Find Extremum (derived value)",
+        "Chart_type": "Histogram",
+        "image_path": "vlat/Histogram.png"
+      },
+      {
+        "id": 23,
+        "question": "More people have rated the taxi between 4.6 and 4.8 than between 4.2 and 4.4.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "True",
+        "Task": "Make Comparisons (derived value)",
+        "Chart_type": "Histogram",
+        "image_path": "vlat/Histogram.png"
+      },
+      {
+        "id": 24,
+        "question": "What is the weight for the person who is 165.1 cm tall?",
+        "options": [
+          "53.9 kg",
+          "67.7 kg",
+          "70.5 kg",
+          "82.7 kg",
+          "Omit"
+        ],
+        "correct_answer": "70.5 kg",
+        "Task": "Retrieve Value",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 25,
+        "question": "What is the height for the tallest person among the 85 males?",
+        "options": [
+          "175.3 cm",
+          "192 cm",
+          "197.1 cm",
+          "200 cm",
+          "Omit"
+        ],
+        "correct_answer": "197.1 cm",
+        "Task": "Find Extremum",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 26,
+        "question": "What is the range in weight for the 85 males?",
+        "options": [
+          "40 - 130 kg",
+          "62.3 - 90.9 kg",
+          "53.9 - 102.3 kg",
+          "53.9 - 123.6 kg",
+          "Omit"
+        ],
+        "correct_answer": "53.9 - 123.6 kg",
+        "Task": "Determine Range",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 27,
+        "question": "What is the height for a person who lies outside the others the most?",
+        "options": [
+          "167.4 cm",
+          "175.3 cm",
+          "193 cm",
+          "197.1 cm",
+          "Omit"
+        ],
+        "correct_answer": "175.3 cm",
+        "Task": "Find Anomalies",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 28,
+        "question": "A group of males are gathered aroud the height of 176 cm and the weight of 70 kg.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "True",
+        "Task": "Find Clusters",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 29,
+        "question": "There is a negative linear relationship between the height and the weight of the 85 males.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Find Correlations/Trends",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 30,
+        "question": "The weight for males with the height of 188 cm are all the same.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (derived value)",
+        "Chart_type": "Scatterplot",
+        "image_path": "vlat/Scatterplot.png"
+      },
+      {
+        "id": 31,
+        "question": "What was the average price of a pound of coffee beans in September 2013?",
+        "options": [
+          "$4.9",
+          "$5.0",
+          "$5.1",
+          "$5.2",
+          "Omit"
+        ],
+        "correct_answer": "$5.1",
+        "Task": "Retrieve Value",
+        "Chart_type": "AreaChart",
+        "image_path": "vlat/AreaChart.png"
+      },
+      {
+        "id": 32,
+        "question": "When was the average price of a pound of coffee beans at minimum?",
+        "options": [
+          "April 2013",
+          "September 2013",
+          "June 2014",
+          "December 2014",
+          "Omit"
+        ],
+        "correct_answer": "December 2014",
+        "Task": "Find Extremum",
+        "Chart_type": "AreaChart",
+        "image_path": "vlat/AreaChart.png"
+      },
+      {
+        "id": 33,
+        "question": "What was the range of the average price of a pound of coffee beans between January 2013 and December 2014?",
+        "options": [
+          "$4.4 - $6.2",
+          "$4.6 - $5.9",
+          "$4.6 - $6.0",
+          "$4.6 - $6.1",
+          "Omit"
+        ],
+        "correct_answer": "$4.6 - $6.0",
+        "Task": "Determine Range",
+        "Chart_type": "AreaChart",
+        "image_path": "vlat/AreaChart.png"
+      },
+      {
+        "id": 34,
+        "question": "Over the course of 2013, the average price of a pound of coffee beans was ____________.",
+        "options": [
+          "rising",
+          "failing",
+          "staying",
+          "Omit"
+        ],
+        "correct_answer": "failing",
+        "Task": "Make Comparisons (derived value)",
+        "Chart_type": "AreaChart",
+        "image_path": "vlat/AreaChart.png"
+      },
+      {
+        "id": 35,
+        "question": "What was the number of girls named \"Amelia\" in 2010 in the UK?",
+        "options": [
+          "1,500",
+          "3,800",
+          "4,200",
+          "8,000",
+          "Omit"
+        ],
+        "correct_answer": "4,200",
+        "Task": "Retrieve Value (absolute value)",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 36,
+        "question": "About what was the ratio of the number of girls named \"Olivia\" to those named \"Isla\" in 2014 in the UK?",
+        "options": [
+          "1 to 1",
+          "1 to 2",
+          "1 to 3",
+          "1 to 4",
+          "Omit"
+        ],
+        "correct_answer": "1 to 1",
+        "Task": "Retrieve Value (relative value)",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 37,
+        "question": "Over the course of years between 2009 and 2014, when was the number of girls named \"Amelia\" at the maximum?",
+        "options": [
+          "2009",
+          "2011",
+          "2012",
+          "2014",
+          "Omit"
+        ],
+        "correct_answer": "2012",
+        "Task": "Find Extremum",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 38,
+        "question": "The number of girls named \"Isla\" was __________ from 2009 to 2012.",
+        "options": [
+          "rising",
+          "failing",
+          "staying",
+          "Omit"
+        ],
+        "correct_answer": "rising",
+        "Task": "Find Correlations/Trends",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 39,
+        "question": "In the UK, the number of girls named \"Amelia\" in 2014 was more than it was in 2013,",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (absolute value)",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 40,
+        "question": "Over the course of years between 2009 and 2014, the number of girls named \"Isla\" was always more than \"Olivia\".",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (relative value)",
+        "Chart_type": "StackedAreaChart",
+        "image_path": "vlat/StackedAreaChart.png"
+      },
+      {
+        "id": 41,
+        "question": "What is the total length of the metro system in Beijing?",
+        "options": [
+          "330 km",
+          "400 km",
+          "530 km",
+          "560 km",
+          "Omit"
+        ],
+        "correct_answer": "530 km",
+        "Task": "Retrieve Value",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 42,
+        "question": "Which city/’s metro system has the largest number of stations?",
+        "options": [
+          "Seoul",
+          "Beijing",
+          "New York City",
+          "Shanghai",
+          "Omit"
+        ],
+        "correct_answer": "New York City",
+        "Task": "Find Extremum",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 43,
+        "question": "What is the range of the total length of the metro systems?",
+        "options": [
+          "150 - 600 km",
+          "240 - 380 km",
+          "240 - 560 km",
+          "180 - 560 km",
+          "Omit"
+        ],
+        "correct_answer": "180 - 560 km",
+        "Task": "Determine Range",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 44,
+        "question": "Which city/’s metro system does lie outside the relationship between the total system length and the number of stations most?",
+        "options": [
+          "Tokyo",
+          "New York City",
+          "Beijing",
+          "London",
+          "Omit"
+        ],
+        "correct_answer": "New York City",
+        "Task": "Find Anomalies",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 45,
+        "question": "A group of the metro systems of the world has approximately 300 stations and around a 200 km system length.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Find Clusters",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 46,
+        "question": "In general, the ridership of the metro system increases as the number of stations increases.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Find Correlations/Trends",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 47,
+        "question": "The metro system in Shanghai has more ridership than the metro system in Beijing.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons",
+        "Chart_type": "BubbleChart",
+        "image_path": "vlat/BubbleChart.png"
+      },
+      {
+        "id": 48,
+        "question": "What was the unemployment rate for Indiana (IN) in 2015?",
+        "options": [
+          "1.1% - 2.3%",
+          "2.3% - 3.4%",
+          "3.4% - 4.6%",
+          "4.6% - 5.7%",
+          "Omit"
+        ],
+        "correct_answer": "3.4% - 4.6%",
+        "Task": "Retrieve Value",
+        "Chart_type": "Map",
+        "image_path": "vlat/Map.png"
+      },
+      {
+        "id": 49,
+        "question": "In which state was the unemployment rate the highest in 2015?",
+        "options": [
+          "Alaska (AK)",
+          "New Mexico (NM)",
+          "Florida (FL)",
+          "New York (NY)",
+          "Omit"
+        ],
+        "correct_answer": "New Mexico (NM)",
+        "Task": "Find Extremum",
+        "Chart_type": "Map",
+        "image_path": "vlat/Map.png"
+      },
+      {
+        "id": 50,
+        "question": "In 2015, the unemployment rate for Washington (WA) was higher than that of Wisconsin (WI).",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "True",
+        "Task": "Make Comparisons",
+        "Chart_type": "Map",
+        "image_path": "vlat/Map.png"
+      },
+      {
+        "id": 51,
+        "question": "For which website was the number of unique visitors the largest in 2010?",
+        "options": [
+          "Facebook",
+          "Amazon",
+          "Bing",
+          "Google",
+          "Omit"
+        ],
+        "correct_answer": "Google",
+        "Task": "Find Extremum (relative value)",
+        "Chart_type": "Treemap",
+        "image_path": "vlat/TreeMap.png"
+      },
+      {
+        "id": 52,
+        "question": "The number of unique visitors for Amazon was more than that of Yahoo in 2010",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Make Comparisons (relative value)",
+        "Chart_type": "Treemap",
+        "image_path": "vlat/TreeMap.png"
+      },
+      {
+        "id": 53,
+        "question": "Samsung is nested in the Financial category.",
+        "options": [
+          "True",
+          "False",
+          "Omit"
+        ],
+        "correct_answer": "False",
+        "Task": "Identify the Hierarchical Structure",
+        "Chart_type": "Treemap",
+        "image_path": "vlat/TreeMap.png"
+      }
+    ]
+  }
