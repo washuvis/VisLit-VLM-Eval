@@ -1,0 +1,154 @@
+test_name,question,options,correct_answer,gpt_answer,raw_response,Task2,is_correct,Chart_type
+VLAT,What is the rating that the people have rated the taxi the most?,"Omit, 4.2 - 4.4, 4.6 - 4.8, 4.4 - 4.6, 4.8 - 5.0",4.4 - 4.6,4.4 - 4.6,"Answer: 4) 4.4 - 4.6
+
+Explanation: The bar chart shows that the highest bar corresponds to the rating range of 4.4 - 4.6, indicating that this is the rating most frequently given by people.",Find Extremum,True,Histogram
+VLAT,What is the range in weight for the 85 males?,"40 - 130 kg, 53.9 - 102.3 kg, 62.3 - 90.9 kg, Omit, 53.9 - 123.6 kg",53.9 - 123.6 kg,53.9 - 123.6 kg,"Answer: 53.9 - 123.6 kg
+
+Explanation: The scatter plot shows the weights of 85 males. The lowest weight appears to be around 53.9 kg, and the highest weight is approximately 123.6 kg. This matches the range provided in option 5.",Determine Range,True,Scatterplot
+VLAT,Which city/’s metro system has the largest number of stations?,"Beijing, Seoul, Omit, Shanghai, New York City",New York City,New York City,"Answer: New York City
+
+Explanation: Based on the chart, New York City has the largest circle, indicating it has the largest number of stations among the options provided.",Find Extremum,True,BubbleChart
+VLAT,About how much did the price of a barrel of oil fall from April to September in 2015?,"$45, $15, $4, Omit, $17",$15,$17,"Answer: $17
+
+Explanation: In April 2015, the price of a barrel of oil was approximately $60. By September 2015, it had fallen to about $43. The difference is $60 - $43 = $17.",Make Comparisons,False,Line chart
+VLAT,"Over the course of the second half of 2015, the price of a barrel of oil was ____________.","falling, staying, Omit, rising",falling,falling,"Answer: falling
+
+Explanation: The chart shows that the price of a barrel of oil decreases over the second half of 2015. The trend line clearly slopes downward from July to December, indicating a fall in prices.",Find Correlations/Trends,True,Line chart
+VLAT,What was the price of a barrel of oil in February 2015?,"$39.72, Omit, $47.82, $57.36, $50.24",$50.24,$57.36,"Answer: $57.36
+Explanation: The chart shows the price of oil in February 2015 as approximately $57.36. This matches option 4.",Retrieve Value,False,Line chart
+VLAT,The global smartphone market share of Apple is larger than that of Huawei.,"False, True, Omit",True,True,"Answer: True
+Explanation: In the pie chart, the segment labeled ""Apple"" is larger than the segment labeled ""Huawei,"" indicating that Apple's global smartphone market share is larger than Huawei's.",Make Comparisons,True,Pie chart
+VLAT,Which city/’s metro system does lie outside the relationship between the total system length and the number of stations most?,"New York City, Tokyo, Beijing, Omit, London",New York City,New York City,"Answer: New York City
+
+Explanation: The chart shows a relationship between the total system length and the number of stations for various metro systems. New York City is the point that lies furthest from the general trend line, indicating it has a significantly different ratio of system length to the number of stations compared to the others.",Find Anomalies,True,BubbleChart
+VLAT,What is the average internet speed in Japan?,"15 Mbps, 14 Mbps, Omit, 16 Mbps, 10 Mbps",15 Mbps,Omit,"Answer: Omit
+
+Explanation: The image provided does not contain any information about Japan or its average internet speed. Therefore, I cannot determine the correct answer based on the chart.",Retrieve Value,False,Bar chart
+VLAT,What is the weight for the person who is 165.1 cm tall?,"70.5 kg, 82.7 kg, 67.7 kg, 53.9 kg, Omit",70.5 kg,Omit,"Answer: Omit
+
+Explanation: The chart does not provide a clear, specific weight for a person who is exactly 165.1 cm tall. The data points are scattered, and there is no precise correlation or line to determine the exact weight for this height. Therefore, it is not possible to select an answer based on the given options without guessing.",Retrieve Value,False,Scatterplot
+VLAT,How many countries in Asia is the average internet speed slower than Thailand?,"8 countries, 7 countries, 6 countries, Omit, 5 countries",7 countries,5 countries,"Answer: 5 countries
+
+Explanation: Based on the chart, Thailand's internet speed is represented by the fifth bar from the left. There are five bars (countries) with lower internet speeds than Thailand.",Make Comparisons,False,Bar chart
+VLAT,What is the total length of the metro system in Beijing?,"530 km, 560 km, Omit, 330 km, 400 km",530 km,Omit,"Answer: Omit
+
+Explanation: The chart does not provide specific information about the total length of the metro system in Beijing. It shows a comparison of metro systems in various cities, but without specific numerical values for Beijing's metro length. Therefore, I cannot determine the correct answer from the given options based on the chart alone.",Retrieve Value,False,BubbleChart
+VLAT,What is the height for a person who lies outside the others the most?,"Omit, 193 cm, 175.3 cm, 167.4 cm, 197.1 cm",175.3 cm,197.1 cm,"Answer: 197.1 cm
+
+Explanation: The scatter plot shows a distribution of heights, and the point at 197.1 cm is the most distant from the cluster of other data points, indicating it is an outlier.",Find Anomalies,False,Scatterplot
+VLAT,What was the range of the average price of a pound of coffee beans between January 2013 and December 2014?,"$4.6 - $5.9, $4.4 - $6.2, $4.6 - $6.0, $4.6 - $6.1, Omit",$4.6 - $6.0,$4.6 - $6.0,"Answer: $4.6 - $6.0
+
+Explanation: The chart shows the average price of a pound of coffee beans from January 2013 to December 2014. The highest point on the graph is around $6.0, and the lowest point is around $4.6. Therefore, the range of the average price during this period is $4.6 to $6.0.",Determine Range,True,AreaChart
+VLAT,"In the UK, the number of girls named ""Amelia"" in 2014 was more than it was in 2013,","Omit, False, True",False,True,"Answer: True
+
+Explanation: The chart shows an increase in the number of girls named ""Amelia"" from 2013 to 2014, as indicated by the blue section of the graph.",Make Comparisons,False,StackedAreaChart
+VLAT,In which month was the price of a barrel of oil the lowest in 2015?,"May, July, Omit, March, December",December,December,"Answer: 5) December
+
+Explanation: The chart shows the price of a barrel of oil over the months of 2015. The lowest point on the graph is in December, indicating that the price was lowest in that month.",Find Extremum,True,Line chart
+VLAT,In which country is the average internet speed the fastest in Asia?,"China, Omit, South Korea, Vietnam, Hong Kong",South Korea,Hong Kong,"Answer: 5) Hong Kong
+
+Explanation: The bar chart shows various internet speeds, and the tallest bar, indicating the fastest speed, corresponds to Hong Kong.",Find Extremum,False,Bar chart
+VLAT,About what is the ratio of the cost of a sandwich to the total cost of room service in Seattle?,"2 to 10, 6 to 10, 4 to 10, 1 to 10, Omit",4 to 10,1 to 10,"Answer: 4) 1 to 10
+
+Explanation: In the chart, the cost of a sandwich in Seattle is represented by the green section, and the total cost of room service is the sum of all sections for Seattle. The green section is relatively small compared to the total, suggesting a ratio of about 1 to 10.",Retrieve Value,False,Stacked Bar chart
+VLAT,"In general, the ridership of the metro system increases as the number of stations increases.","Omit, True, False",False,True,"Answer: True
+
+Explanation: The chart shows a general upward trend where the number of stations increases along with the ridership. Most of the larger circles, which represent higher ridership, are located towards the right side of the chart, indicating more stations. This suggests a positive correlation between the number of stations and ridership.",Find Correlations/Trends,False,BubbleChart
+VLAT,In which city is the cost of soda the highest?,"Atlanta, Washington D.C., Las Vegas, Omit, New York City",Washington D.C.,New York City,"Answer: 5) New York City
+
+Explanation: The chart shows the cost of soda in different cities, with New York City having the highest total bar height, indicating the highest cost.",Find Extremum,False,Stacked Bar chart
+VLAT,How many people have rated the taxi between 4.0 and 4.2?,"240, 153, 145, 200, Omit",153,153,"Answer: 153
+
+Explanation: The chart shows the number of people who rated the taxi service. For ratings between 4.0 and 4.2, the bar indicates 153 people.",Retrieve Value,True,Histogram
+VLAT,A group of males are gathered aroud the height of 176 cm and the weight of 70 kg.,"Omit, True, False",True,True,"Answer: True
+Explanation: The scatter plot shows a cluster of data points around the height of 176 cm and the weight of 70 kg, indicating that a group of males is indeed gathered around these measurements.",Find Clusters,True,Scatterplot
+VLAT,What is the cost of peanuts in Las Vegas?,"$16.7, $35.4, $23.4, Omit, $12",$12,Omit,"Answer: Omit
+
+Explanation: The image is a stacked bar chart with multiple categories, but it does not provide specific information about the cost of peanuts in Las Vegas. Without clear labeling or a direct reference to peanuts and their cost, it is not possible to determine the correct answer from the given options.",Retrieve Value,False,Stacked Bar chart
+VLAT,What is the range of the total length of the metro systems?,"Omit, 150 - 600 km, 180 - 560 km, 240 - 560 km, 240 - 380 km",180 - 560 km,240 - 560 km,"Answer: 240 - 560 km
+
+Explanation: The chart shows the total length of various metro systems. The smallest value is slightly above 200 km, and the largest value is slightly above 500 km. The range that best fits this observation is 240 - 560 km.",Determine Range,False,BubbleChart
+VLAT,The number of unique visitors for Amazon was more than that of Yahoo in 2010,"True, False, Omit",False,False,"Answer: False
+
+Explanation: In the image, the area representing Yahoo is larger than the area representing Amazon, indicating that Yahoo had more unique visitors than Amazon in 2010.",Make Comparisons,True,Treemap
+VLAT,In which state was the unemployment rate the highest in 2015?,"New Mexico (NM), Omit, Florida (FL), New York (NY), Alaska (AK)",New Mexico (NM),New Mexico (NM),"Answer: New Mexico (NM)
+
+Explanation: The map uses shades of blue to indicate unemployment rates, with darker shades representing higher rates. New Mexico (NM) is shown in a darker shade compared to the other states listed in the options, indicating it had the highest unemployment rate among them in 2015.",Find Extremum,True,Map
+VLAT,"Over the course of years between 2009 and 2014, the number of girls named ""Isla"" was always more than ""Olivia"".","Omit, True, False",False,False,"Answer: False
+
+Explanation: In the chart, the number of girls named ""Olivia"" (represented by the blue area) is consistently higher than the number of girls named ""Isla"" (represented by the green area) from 2009 to 2014.",Make Comparisons,True,StackedAreaChart
+VLAT,"Over the course of years between 2009 and 2014, when was the number of girls named ""Amelia"" at the maximum?","2011, Omit, 2009, 2012, 2014",2012,2012,"Answer: 2012
+
+Explanation: The chart shows the number of girls named ""Amelia"" over the years. The peak of the blue area, which represents ""Amelia,"" occurs in 2012, indicating the maximum number of girls named ""Amelia"" in that year.",Find Extremum,True,StackedAreaChart
+VLAT,When was the average price of a pound of coffee beans at minimum?,"April 2013, Omit, December 2014, June 2014, September 2013",December 2014,December 2014,"Answer: December 2014
+
+Explanation: The chart shows a downward trend in the price of coffee beans, with the lowest point occurring at the end of the timeline. This corresponds to December 2014, making it the minimum price point.",Find Extremum,True,AreaChart
+VLAT,What is the approval rating of Republicans among the people who have the education level of Postgraduate Study?,"47%, 62%, 53%, 38%, Omit",38%,38%,"Answer: 38%
+Explanation: The chart shows the approval rating of Republicans among people with different education levels. For those with Postgraduate Study, the approval rating is represented by the blue section, which is approximately 38%.",Retrieve Value,True,100% Stacked Bar chart
+VLAT,The ratio of the cost of Soda to the cost of Water in Orlando is higher than that of Washington D.C.,"True, False, Omit",False,True,"Answer: True
+
+Explanation: In the chart, the cost of Soda (red) relative to the cost of Water (green) is higher in Orlando than in Washington D.C. This is evident from the larger proportion of the red section compared to the green section in Orlando, indicating a higher ratio.",Make Comparisons,False,Stacked Bar chart
+VLAT,The weight for males with the height of 188 cm are all the same.,"True, False, Omit",False,False,"Answer: False
+
+Explanation: The scatter plot shows multiple data points for males with a height of 188 cm, and these points have different weights. This indicates that the weights are not all the same for this height.",Make Comparisons,True,Scatterplot
+VLAT,"About what was the ratio of the number of girls named ""Olivia"" to those named ""Isla"" in 2014 in the UK?","1 to 1, Omit, 1 to 2, 1 to 3, 1 to 4",1 to 1,1 to 1,"Answer: 1 to 1
+
+Explanation: In 2014, the chart shows that the number of girls named ""Olivia"" (blue) and ""Isla"" (orange) are approximately equal, indicating a 1 to 1 ratio.",Retrieve Value,True,StackedAreaChart
+VLAT,The metro system in Shanghai has more ridership than the metro system in Beijing.,"False, True, Omit",False,True,"Answer: True
+
+Explanation: The chart shows that the circle representing Shanghai is larger than the circle representing Beijing, indicating that Shanghai has higher ridership than Beijing.",Make Comparisons,False,BubbleChart
+VLAT,The approval rating of Republicans for the people who have the education level of Some College Degree is lower than that for the people who have the education level of Postgraduate Study.,"False, Omit, True",False,True,"Answer: True
+
+Explanation: In the chart, the approval rating for Republicans (represented by the red section) is lower for people with ""Some College Degree"" compared to those with ""Postgraduate Study."" The red section is smaller for ""Some College Degree"" than for ""Postgraduate Study,"" indicating a lower approval rating.",Make Comparisons,False,100% Stacked Bar chart
+VLAT,"What was the number of girls named ""Amelia"" in 2010 in the UK?","4,200, Omit, 3,800, 1,500, 8,000","4,200","4,200","Answer: 4,200
+
+Explanation: The chart shows the number of girls named ""Amelia"" in the UK from 1996 to 2020. In 2010, the blue section, which represents ""Amelia,"" is at approximately 4,200. This matches option 1.",Retrieve Value,False,StackedAreaChart
+VLAT,In which company is the global smartphone market share the smallest?,"Others, Omit, Apple, Xiaomi, Lenovo",Lenovo,Lenovo,"Answer: Lenovo
+
+Explanation: Based on the pie chart, Lenovo has the smallest segment, indicating it has the smallest global smartphone market share among the listed options.",Find Extremum,True,Pie chart
+VLAT,For which website was the number of unique visitors the largest in 2010?,"Google, Amazon, Facebook, Bing, Omit",Google,Google,"Answer: Google
+
+Explanation: In the image, the area representing Google is the largest among all the websites, indicating that it had the highest number of unique visitors in 2010.",Find Extremum,True,Treemap
+VLAT,What was the average price of a pound of coffee beans in September 2013?,"$5.0, Omit, $5.1, $5.2, $4.9",$5.1,"I'm sorry, I can't determine the answer from the image provided.","I'm sorry, I can't determine the answer from the image provided.",Retrieve Value,False,AreaChart
+VLAT,"The number of girls named ""Isla"" was __________ from 2009 to 2012.","failing, rising, Omit, staying",rising,rising,"Answer: rising
+
+Explanation: The chart shows the number of girls named ""Isla"" (represented by the green area) from 2009 to 2012. The green area increases over this period, indicating that the number of girls named ""Isla"" was rising.",Find Correlations/Trends,True,StackedAreaChart
+VLAT,About what is the global smartphone market share of Samsung?,"Omit, 15%, 33%, 25%, 50%",25%,25%,"Answer: 25%
+
+Explanation: Based on the pie chart, the section labeled ""Samsung"" appears to represent approximately one-quarter of the entire chart, which corresponds to 25%.",Retrieve Value,True,Pie chart
+VLAT,The cost of vodka in Atlanta is higher than that of Honolulu.,"False, Omit, True",True,False,"Answer: False
+
+Explanation: The chart shows that the cost of vodka in Atlanta (represented by the blue bar) is lower than that in Honolulu (represented by the orange bar). Therefore, the statement that the cost of vodka in Atlanta is higher than that of Honolulu is false.",Make Comparisons,False,Stacked Bar chart
+VLAT,There is a negative linear relationship between the height and the weight of the 85 males.,"False, Omit, True",False,False,"Answer: False
+
+Explanation: The scatter plot shows a positive linear relationship between height and weight, as the points generally trend upwards from left to right. This indicates that as height increases, weight also tends to increase, which is the opposite of a negative linear relationship.",Find Correlations/Trends,True,Scatterplot
+VLAT,What is the education level of people in which the Democrats have the lowest approval rating?,"High School Graduate or Less, Omit, College Graduate, Postgraduate Study, Some College Degree",College Graduate,High School Graduate or Less,"Answer: High School Graduate or Less
+
+Explanation: The chart shows the approval ratings for Democrats across different education levels. The section with the least amount of blue (indicating lower approval) corresponds to ""High School Graduate or Less.""",Find Extremum,False,100% Stacked Bar chart
+VLAT,What is the range of the average internet speed in Asia?,"3.4 - 7.8 Mbps, 0 - 22 Mbps, Omit, 3 - 20 Mbps, 2 - 20.5 Mbps",2 - 20.5 Mbps,Omit,"Answer: 3) Omit
+
+Explanation: The chart does not provide specific numerical values or a clear range for the average internet speed in Asia. Without precise data points, it is not possible to accurately determine the range from the given options.",Determine Range,False,Bar chart
+VLAT,Samsung is nested in the Financial category.,"True, Omit, False",False,False,"Answer: False
+
+Explanation: In the chart, Samsung is nested in the ""Computer"" category, not the ""Financial"" category.",Identify the Hierarchical Structure,True,Treemap
+VLAT,"In 2015, the unemployment rate for Washington (WA) was higher than that of Wisconsin (WI).","Omit, False, True",True,True,"Answer: True
+
+Explanation: The map shows the unemployment rates by state in 2015, with darker shades indicating higher unemployment rates. Washington (WA) is in a darker shade compared to Wisconsin (WI), indicating that Washington had a higher unemployment rate than Wisconsin in 2015.",Make Comparisons,True,Map
+VLAT,What was the price range of a barrel oil in 2015?,"$37.04 - $48.36, $35 - $65, Omit, $48.36 - $60.95, $37.04 - $60.95",$37.04 - $60.95,$37.04 - $60.95,"Answer: $37.04 - $60.95
+
+Explanation: The chart shows the price of oil per barrel throughout 2015. The lowest point on the chart is approximately $37.04, and the highest point is around $60.95. Therefore, the price range of a barrel of oil in 2015 is best represented by the option ""$37.04 - $60.95"".",Determine Range,True,Line chart
+VLAT,A group of the metro systems of the world has approximately 300 stations and around a 200 km system length.,"False, True, Omit",False,True,"Answer: True
+
+Explanation: The chart shows a metro system with approximately 300 stations and a system length of around 200 km. This matches the description given in the question, so the statement is true based on the chart.",Find Clusters,False,BubbleChart
+VLAT,What was the unemployment rate for Indiana (IN) in 2015?,"4.6% - 5.7%, 2.3% - 3.4%, Omit, 3.4% - 4.6%, 1.1% - 2.3%",3.4% - 4.6%,4.6% - 5.7%,"Answer: 4.6% - 5.7%
+
+Explanation: The map shows Indiana (IN) in a shade that corresponds to the 4.6% - 5.7% range according to the legend.",Retrieve Value,False,Map
+VLAT,What is the height for the tallest person among the 85 males?,"197.1 cm, 175.3 cm, 200 cm, Omit, 192 cm",197.1 cm,200 cm,"Answer: 200 cm
+
+Explanation: The scatter plot shows the heights of 85 males, and the tallest point on the chart corresponds to 200 cm. This is the highest value on the y-axis, indicating the tallest height among the individuals.",Find Extremum,False,Scatterplot
+VLAT,"Over the course of 2013, the average price of a pound of coffee beans was ____________.","staying, Omit, failing, rising",failing,failing,"Answer: failing
+
+Explanation: The chart shows a general downward trend in the price of coffee beans over the course of 2013, indicating that the average price was falling.",Make Comparisons,True,AreaChart
+VLAT,More people have rated the taxi between 4.6 and 4.8 than between 4.2 and 4.4.,"Omit, True, False",True,True,"Answer: True
+
+Explanation: The chart shows that the number of people who rated the taxi between 4.6 and 4.8 is higher than those who rated it between 4.2 and 4.4. The bar for 4.6 to 4.8 is taller than the bar for 4.2 to 4.4, indicating more ratings in the higher range.",Make Comparisons,True,Histogram

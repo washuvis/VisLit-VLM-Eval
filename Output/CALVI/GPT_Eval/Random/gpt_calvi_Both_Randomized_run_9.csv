@@ -1,0 +1,149 @@
+test_name,question,options,correct_answer,gpt_answer,raw_response,Misleader,is_correct
+CALVI,Which is the trend of the survival rate as weight increases for species Z?,"Generally constant, Generally decreases, Generally increases, Cannot be inferred/inadequate information",Generally increases,Generally decreases,"Answer: Generally decreases
+
+Explanation: The scatter plot shows a clear downward trend, indicating that as the weight increases, the survival rate generally decreases. The points are distributed in a way that forms a descending pattern from left to right.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,Which of the following is true about the prevalence of the plant species Y?,"It is less prevalent in region B than in C., It is more prevalent in region C than in A., It is more prevalent in region D than in E., It is less prevalent in region C than in D.",It is less prevalent in region C than in D.,It is more prevalent in region D than in E.,"Answer: It is more prevalent in region D than in E.
+
+Explanation: Based on the map, region D (Australia) is marked with a lighter color indicating a lower prevalence of plant species Y compared to region E (Antarctica), which is marked with a darker color indicating a higher prevalence. Therefore, the correct statement is that it is more prevalent in region D than in E.",Manipulation of Scales - Inappropriate Order,False
+CALVI,"Approximately, what is the number of votes for candidate A as a proportion of those for candidate B?","70%, 50%, 60%, 80%",80%,80%,"Answer: 80%
+
+Explanation: Candidate A received approximately 800 votes, and candidate B received 1000 votes. The proportion of votes for candidate A compared to candidate B is 800/1000, which is 0.8 or 80%.",Manipulation of Scales - Inappropriate Use of Scale Functions,True
+CALVI,"Assuming today is May 01, and half of the votes from each state for a favorite ice cream brand have been counted. The color of each state corresponds to the brand that has received the most votes in that state so far. The brand with the most number of colored states will be the most popular brand, and the results will be finalized on May 15. Which of the folowing is true?","B will be least popular brand of ice cream., A will be most popular brand of ice cream., C will be the most popular brand of ice cream., Too early to say.",Too early to say.,A will be most popular brand of ice cream.,"Answer: 2) A will be most popular brand of ice cream.
+
+Explanation: The map shows that the majority of states are colored in purple, which corresponds to brand A. This indicates that brand A currently has the most votes in the most states. Therefore, based on the current data, A is likely to be the most popular brand.",Concealed Uncertainty,False
+CALVI,"Approximately, what is brand C's total sales as a proportion of brand B's total sales from Jan 01 to Mar 15?","20%, 60%, 50%, 90%",60%,20%,"Answer: 20%
+
+Explanation: From the chart, brand C's sales are consistently around $10,000, while brand B's sales are around $30,000. The proportion of brand C's sales to brand B's sales is approximately $10,000 / $30,000 = 1/3, which is about 33%. However, the closest option provided is 20%, which is the best choice given the options.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,GDP per capita for country Z grew faster from 2000 to 2003 than from 2005 to 2008.,"False, True, Cannot be inferred/inadequate information",True,True,"Answer: True
+
+Explanation: From the chart, the GDP per capita for Country Z increased from about $10K in 2000 to about $20K in 2003, which is a growth of approximately $10K over three years. From 2005 to 2008, the GDP per capita increased from about $25K to about $35K, which is a growth of approximately $10K over three years. The growth amounts are similar, but the initial GDP per capita was lower in 2000, indicating a higher growth rate percentage-wise from 2000 to 2003 compared to 2005 to 2008.",Manipulation of Scales - Inappropriate Use of Scale Functions,True
+CALVI,"Assuming today is May 01, 2022, which of the following statements is true?","The number of new employees per year fell sharply in 2022., None of the above., The total number of employees in company Z decreased in 2022., Company Z had more new employees in 2018 than in 2020.",None of the above.,The number of new employees per year fell sharply in 2022.,"Answer: 1) The number of new employees per year fell sharply in 2022.
+
+Explanation: The chart shows a significant drop in the number of new employees in 2022 compared to 2021. This indicates a sharp decline, making option 1 the correct choice. The other options are not supported by the data in the chart.",Inappropriate Aggregation,False
+CALVI,Which of the following is true about the three brands of shampoo in city Y from 2001 to 2005?,"The market share of brand C is on an increasing trend from 2001 to 2005., The market share of brand C is higher in 2001 than in 2002., None of the above., Brand B had the largest market share in 2001 compared to its market share in the other years.",The market share of brand C is higher in 2001 than in 2002.,The market share of brand C is higher in 2001 than in 2002.,"Answer: 2) The market share of brand C is higher in 2001 than in 2002.
+
+Explanation: 
+- Option 1 is incorrect because the market share of brand C decreases from 2001 to 2002 and then remains relatively stable, not showing an increasing trend.
+- Option 2 is correct as the market share of brand C is visibly higher in 2001 compared to 2002.
+- Option 4 is incorrect because brand B's market share is not the largest in 2001 compared to other years; it is larger in 2003.
+- Therefore, the best answer is option 2.",Manipulation of Scales - Inappropriate Order,True
+CALVI,What is the trend sales in gift shop A from Jan to Dec?,"Generally constant, Cannot be inferred/inadequate information, Generally decreasing, Generally increasing",Cannot be inferred/inadequate information,Generally increasing,"Answer: 4) Generally increasing
+
+Explanation: The chart shows a clear upward trend in sales from November 15 to December 20. The sales figures consistently rise over this period, indicating a general increase.",Cherry Picking,False
+CALVI,The annual number of trees planted in town Z has been increasing from 1960 to 1980.,"Cannot be inferred/inadequate information, False, True",False,False,"Answer: 2) False
+
+Explanation: The chart shows the number of trees planted annually in Town Z from 1960 to 1980. The number of trees planted decreases from 1960 to 1980, indicating that the statement is false.",Manipulation of Scales - Unconventional Scale Directions,True
+CALVI,Does any members of species C weigh more than 5 lbs?,"No, Cannot be inferred/inadequate information, Yes",Cannot be inferred/inadequate information,No,"Answer: 1) No
+
+Explanation: In the chart, species C is represented by the dark purple color. All the data points for species C are located below the 5 lbs mark on the x-axis. Therefore, no members of species C weigh more than 5 lbs.",Overplotting,False
+CALVI,What is the price of water bottle from store A as a proportion of that from store B?,"90%, 17%, 50%, 25%",90%,90%,"Answer: 90%
+
+Explanation: The price of the water bottle from Store A is $35, and from Store B is $39. The proportion of the price from Store A to Store B is calculated as follows:
+
+\[
+\text{Proportion} = \left(\frac{35}{39}\right) \times 100 \approx 89.74\%
+\]
+
+Rounding to the nearest whole number gives approximately 90%. Therefore, the best answer is 90%.",Manipulation of Scales - Inappropriate Scale Range,True
+CALVI,WY has a higher risk of bacteria Z infection than ND.,"Cannot be inferred/inadequate information, True, False",True,False,"Answer: 3) False
+
+Explanation: According to the map, Wyoming (WY) is marked as having a ""Very High"" risk level, while North Dakota (ND) is marked as having an ""Intermediate"" risk level. Therefore, WY does not have a higher risk of bacteria Z infection than ND; in fact, it has a lower risk.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,What is the trend of the number of bookstores in city Z from 2000 to 2020?,"Constant, Decreasing, Increasing",Increasing,Decreasing,"Answer: Decreasing
+
+Explanation: The chart shows a downward trend in the number of bookstores in City Z from 2000 to 2020. The number of bookstores consistently decreases over this period, indicating a decreasing trend.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,"Assuming today is Feb 20, 2022, which of the following is true about the vegetables planted by the three farms?","All three farms planted fewer vegetables in 2022 than they did in the previous years., All three farms planted more vegetables in 2022 than they did in the previous years., None of the above., All three farms planted about the same amount of vegetables in 2022 as they did in the previous years.",None of the above.,All three farms planted fewer vegetables in 2022 than they did in the previous years.,"Answer: 1) All three farms planted fewer vegetables in 2022 than they did in the previous years.
+
+Explanation: The chart shows the number of vegetables planted by three farms from 2019 to 2022. In 2022, the total amount of vegetables planted by all three farms is significantly lower than in any of the previous years (2019, 2020, and 2021). Each farm's contribution in 2022 is less than in the previous years, indicating that all three farms planted fewer vegetables in 2022.",Inappropriate Aggregation,False
+CALVI,"If the temperature gets higher than 100 degree Fahrenheit, then the bottles of water sold must be greater than 750.","True, False, Cannot be inferred/inadequate information",False,Cannot be inferred/inadequate information,"Answer: 3) Cannot be inferred/inadequate information
+
+Explanation: The chart only shows data up to 90°F, and there is no information about temperatures higher than 100°F. Therefore, we cannot determine if the number of bottles sold would be greater than 750 at temperatures above 100°F based on the given chart.",Concealed Uncertainty,False
+CALVI,Do U.S. states have a more similar number of sunny days in the summer or in the winter?,"Cannot be inferred/inadequate information, Summer, Winter",Cannot be inferred/inadequate information,Summer,"Answer: Summer
+
+Explanation: In the summer map, all states are marked with the same color, indicating a high number of sunny days (10+). In the winter map, there is a variation in colors, showing differences in the number of sunny days across states. Therefore, U.S. states have a more similar number of sunny days in the summer.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,"The residents of town Y are voting on a favorite hiking trail, and half of the votes have been counted. The poll closes on Sep 01, 2022. Which of the following is true?","Too early to say., Hiking trail A will be voted as the favorite trail., Hiking trail C will be voted as the favorite trail., Hiking trail B will be voted as the favorite trail.",Too early to say.,Too early to say.,"Answer: Too early to say.
+
+Explanation: The chart shows the number of votes for each hiking trail as of August 1, 2022, with Trail A having the most votes, followed by Trail B, and then Trail C. However, since only half of the votes have been counted and the poll closes on September 1, 2022, it is too early to determine which trail will ultimately be voted as the favorite.",Concealed Uncertainty,True
+CALVI,Do U.S. states have a more similar number of windy days in the summer or in the winter?,"Summer, Cannot be inferred/inadequate information, Winter",Cannot be inferred/inadequate information,Winter,"Answer: Winter
+
+Explanation: In the winter map, most states are in the ""High"" category for windy days, indicating a more uniform distribution across the states. In contrast, the summer map shows a wider range of categories, with many states in the ""Low"" and ""Intermediate"" categories. This suggests that the number of windy days is more similar across states in the winter.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,Monthly sales for store B is increasing from Jan to Dec.,"False, Cannot be inferred/inadequate information, True",False,False,"Answer: 1) False
+
+Explanation: The chart shows that the sales for Store B (represented by the dashed line) are decreasing from January to December. The line trends downward throughout the year, indicating a decline in sales.",Misleading Annotations,True
+CALVI,Was the average amount of precipitation over 15 years in region D higher than that in region C?,"Cannot be inferred/inadequate information, No, Yes",Cannot be inferred/inadequate information,Yes,"Answer: Yes
+
+Explanation: According to the map, region D is shaded in dark blue, indicating an average precipitation of 10,000+ mm. Region C is shaded in light blue, indicating an average precipitation of 1-5,000 mm. Therefore, the average amount of precipitation in region D is higher than in region C.",Missing Data,False
+CALVI,"Assuming today is May 10 and given the chart below, which statement about rainfall (mm) is true for the past 14 days?","The amount of rainfall peaked at the end of the past 14 days., The amount of rainfall peaked at the beginning of the past 14 days., None of the days had lower than 40mm of rainfall., There was more rainfall at the beginning than at the end of the past 14 days.",There was more rainfall at the beginning than at the end of the past 14 days.,The amount of rainfall peaked at the end of the past 14 days.,"Answer: The amount of rainfall peaked at the end of the past 14 days.
+
+Explanation: The chart shows that the rainfall increased over the 14-day period, with the highest amount occurring on May 2. This indicates that the peak was at the end of the period.",Manipulation of Scales - Inappropriate Order,False
+CALVI,What is the trend of the average price of books from 1960 to 2020 in city Z?,"Cannot be inferred/inadequate information, Generally constant, Generally decreasing, Generally increasing",Cannot be inferred/inadequate information,Cannot be inferred/inadequate information,"Answer: 1) Cannot be inferred/inadequate information
+
+Explanation: The chart provided shows data from 1997 to 2012, not from 1960 to 2020. Therefore, it is not possible to determine the trend of the average price of books from 1960 to 2020 based on this chart.",Cherry Picking,True
+CALVI,"Within each city, is there a positive relationship between salary and average daily working hours?","No, Cannot be inferred/inadequate information, Yes",Cannot be inferred/inadequate information,Yes,"Answer: 3) Yes
+
+Explanation: The scatter plot shows a positive trend between average daily working hours and salary, as indicated by the upward-sloping line. This suggests that within the cities, there is a positive relationship between salary and average daily working hours.",Inappropriate Aggregation,False
+CALVI,Is the total number of shirts sold by company Z in the first half of 2021 higher than that in the second half?,"Yes, Cannot be inferred/inadequate information, No",No,Yes,"Answer: 1) Yes
+
+Explanation: The chart shows a decreasing trend in the number of shirts sold from January to December 2021. The first half of the year (January to June) has higher sales numbers compared to the second half (July to December). Therefore, the total number of shirts sold in the first half of 2021 is higher than in the second half.",Manipulation of Scales - Inappropriate Order,False
+CALVI,The number of visitors at airport X is decreasing from 2000 to 2005.,"True, Cannot be inferred/inadequate information, False",False,True,"Answer: 1) True
+
+Explanation: The chart shows a clear downward trend in the number of visitors at Airport X from 2002 to 2005. The number of visitors decreases each year, indicating a consistent decline over this period.",Manipulation of Scales - Inappropriate Order,False
+CALVI,What is the number of concert tickets sold on Aug 10 as a proportion of that on Aug 11?,"80%, 40%, 20%, 60%",80%,60%,"Answer: 60%
+
+Explanation: On August 10, approximately 10,000 tickets were sold, and on August 11, approximately 16,000 tickets were sold. The proportion of tickets sold on August 10 compared to August 11 is \( \frac{10,000}{16,000} = 0.625 \), which is closest to 60%.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,"On May 06 in city Z, what is the number of visitors at train station B as a proportion of that at train station C?","75%, 25%, 100%, 33%",33%,100%,"Answer: 100%
+
+Explanation: On May 06, the number of visitors at train station B is equal to the number of visitors at train station C. Therefore, the proportion of visitors at station B to station C is 100%.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,What is the trend for the percentage of bacteria Z from 1970 to 2020?,"Generally constant, Generally decreasing, Generally increasing, Cannot be inferred/inadequate information","Cannot be inferred/inadequate information, Generally increasing",Generally constant,"Answer: Generally constant
+
+Explanation: The chart shows a line that remains relatively flat from 1970 to 2020, indicating that the percentage of bacteria Z detected in the population has not significantly increased or decreased over this period. Therefore, the trend is generally constant.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,What is the trend of the total sales for item X from Apr to Jul?,"Cannot be inferred/inadequate information, Decreasing, then increasing, Increasing, then decreasing","Increasing, then decreasing","Increasing, then decreasing","Answer: Increasing, then decreasing
+
+Explanation: From April to May, the total sales for item X increase. Then, from May to July, the sales decrease. Therefore, the trend is increasing, then decreasing.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,"Approximately, what is the total number of visitors at amusement park B as a proportion of that at amusement park C from May to December?","200%, 33%, 100%, 67%",33%,200%,"Answer: 200%
+
+Explanation: From the chart, the number of visitors at amusement park B is consistently higher than that at amusement park C from May to December. The proportion of visitors at park B compared to park C is approximately 200%, as park B has about twice the number of visitors as park C.",Manipulation of Scales - Inappropriate Scale Range,False
+CALVI,Predatory species Z is more prevalent in NC than in AZ.,"True, False, Cannot be inferred/inadequate information",False,True,"Answer: 1) True
+
+Explanation: The map shows the risk level of Bacteria Z infection, with North Carolina (NC) marked as ""Very High"" and Arizona (AZ) marked as ""High."" This suggests that Bacteria Z is more prevalent in NC than in AZ.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,Which is the trend of the total number of apples harvested in farm X from Jan 11 to Jan 14?,"Decreasing, then increasing, Cannot be inferred/inadequate information, Increasing, then decreasing","Decreasing, then increasing","Increasing, then decreasing","Answer: Increasing, then decreasing
+
+Explanation: From the chart, the total number of apples harvested increases from Jan 11 to Jan 13, and then decreases from Jan 13 to Jan 14. This matches the trend described in option 3.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,Which of the following is true about the annual number of new movies released in city X?,"None of the above., 2000 had the most number of new movies released., There were more new movies released in 1992 than in 1994., There were more new movies released in 1996 than in 1995.",There were more new movies released in 1992 than in 1994.,There were more new movies released in 1992 than in 1994.,"Answer: 3) There were more new movies released in 1992 than in 1994.
+
+Explanation: Based on the chart, the number of new movies released in 1992 is higher than in 1994. The other options are incorrect: 2000 does not have the most releases, and 1996 does not have more releases than 1995.",Manipulation of Scales - Unconventional Scale Directions,True
+CALVI,"In town X, what is the approximate average number of customers at mall A from Jan to Mar?","200, 400, 500, 300",400,300,"Answer: 300
+
+Explanation: The chart shows the number of customers at Mall A in Town X for January, February, and March. The average line is marked at 300 customers. Therefore, the approximate average number of customers from January to March is 300.",Misleading Annotations,False
+CALVI,"Within each town, is there a negative relationship between average daily working hours and happiness score?","Cannot be inferred/inadequate information, False, True",False,True,"Answer: True
+
+Explanation: The scatter plot shows a negative trend for both towns A and B, as indicated by the downward slope of the line. This suggests that as average daily working hours increase, the happiness score tends to decrease within each town.",Inappropriate Aggregation,False
+CALVI,"In city Z, what is the approximate average number of new buildings built from 1950 to 1952?","20, 30, 40, 50",40,40,"Answer: 40
+
+Explanation: The chart shows the number of new buildings in City Z for the years 1950, 1951, and 1952. The average line is marked at 40. Therefore, the approximate average number of new buildings built from 1950 to 1952 is 40.",Misleading Annotations,True
+CALVI,Are there more households with exactly 1 car than households with exactly 2 cars?,"No, Yes, Cannot be inferred/inadequate information",Cannot be inferred/inadequate information,Yes,"Answer: Yes
+
+Explanation: According to the pie chart, 55% of households have exactly 1 car, while 20% have exactly 2 cars. Therefore, there are more households with exactly 1 car than households with exactly 2 cars.",Manipulation of Scales - Inappropriate Use of Scale Functions,False
+CALVI,More than half of the people in county Z prefer reading at night.,"True, Cannot be inferred/inadequate information, False",False,False,"Answer: 3) False
+
+Explanation: The chart shows that 55% of people in County Z prefer reading in the morning, while 45% prefer reading at night. Therefore, it is false that more than half of the people prefer reading at night.",Misleading Annotations,True
+CALVI,"Company A sells a board game. Assuming today is June 01, 2022, which of the following statements is true?","2004 has more copies sold than 2003, Copies sold per year fell sharply in 2022., None of the above., Copies sold per year has been strictly increasing since 2003.",None of the above.,None of the above.,"Answer: 3) None of the above.
+
+Explanation: 
+1) The chart shows that the number of copies sold in 2004 is slightly less than in 2003, so option 1 is false.
+2) The data for 2022 shows a sharp decline, but since today is June 01, 2022, the year is not complete, making option 2 not applicable.
+4) The copies sold per year have not been strictly increasing since 2003; there are fluctuations, so option 4 is false.",Inappropriate Aggregation,True
+CALVI,"Assuming today is Apr 10, 2022, did the total number of cars parked in the three parking lots fall sharply in 2022?","Cannot be inferred/inadequate information, No, Yes",Cannot be inferred/inadequate information,Yes,"Answer: Yes
+
+Explanation: The chart shows a significant decrease in the total number of cars parked in the three parking lots from 2021 to 2022. The bars for 2022 are much smaller compared to previous years, indicating a sharp decline.",Inappropriate Aggregation,False
+CALVI,"Which region has the highest number of confirmed cases per 1,000 people?","C, Cannot be inferred/inadequate information, A, B",Cannot be inferred/inadequate information,Cannot be inferred/inadequate information,"Answer: 2) Cannot be inferred/inadequate information
+
+Explanation: The map shows the total number of confirmed cases in different regions, but it does not provide information about the population of these regions. Without knowing the population, we cannot calculate the number of confirmed cases per 1,000 people. Therefore, it is not possible to determine which region has the highest number of confirmed cases per 1,000 people based on the map alone.",Missing Normalization,True
+CALVI,Which of the following is true about company Z?,"More employees have a satisfaction rating at B than those who have a rating at C., Employee satisfaction rating decreases as the annual number of vacation days increases., More employees have vacation days at D than those at A., None of the above.",More employees have vacation days at D than those at A.,More employees have a satisfaction rating at B than those who have a rating at C.,"Answer: 1) More employees have a satisfaction rating at B than those who have a rating at C.
+
+Explanation: The size of the bubble at B is larger than the bubble at C, indicating that more employees have a satisfaction rating at B than at C. The other options are not supported by the chart: employee satisfaction does not decrease as vacation days increase, and more employees have vacation days at A than at D.",Manipulation of Scales - Unconventional Scale Directions,False
+CALVI,Does cell phone brand A have more than half of the total market share?,"Cannot be inferred/inadequate information, No, Yes",Cannot be inferred/inadequate information,No,"Answer: No
+
+Explanation: The chart shows that cell phone brand A has a market share of 40%. Since more than half of the total market share would be over 50%, brand A does not have more than half of the total market share.",Manipulation of Scales - Inappropriate Use of Scale Functions,False
+CALVI,What is the trend of the growth for plant species P as the number of hours of sunlight exposure per month increases?,"Generally constant, Generally decreases, Generally increases, Cannot be inferred/inadequate information",Generally decreases,Generally increases,"Answer: Generally increases
+
+Explanation: The scatter plot shows a clear upward trend, indicating that as the number of hours of sunlight exposure per month increases, the growth of plant species P also generally increases.",Manipulation of Scales - Unconventional Scale Directions,False
