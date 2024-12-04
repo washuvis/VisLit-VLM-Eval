@@ -37,8 +37,9 @@ All models are configured with:
 ├── prompts/
 │   ├── VLAT_prompt.txt      # Standardized VLAT assessment prompt
 │   └── CALVI_prompt.txt     # Standardized CALVI assessment prompt
-├── results/
-│   ├── raw/                 # Raw model responses
+├── Output/
+│   ├── CALVI/               # model responses to CALVI questions
+│   ├── VLAT/                # model responses to VLAT questions
 ```
 
 ## 🚀 Getting Started
