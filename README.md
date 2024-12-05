@@ -60,7 +60,3 @@ pip install -r requirements.txt
 4. Run evaluations:
    - Navigate to the `scripts` directory
    - Execute evaluation notebooks for each model
-
-## 📧 Contact
-
-For questions or feedback, please contact Saugat Pandey (p.saugat@wustl.edu) or Dr. Alvitta Ottley (alvitta@wustl.edu)
